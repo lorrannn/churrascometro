@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerImg">
+            <img id="bgimage" src="images/logoNoBG.png" height=160px>
+        </div>
+        <div class="headerTitle">
+            <h1>Churrascômetro</h1>
+        </div>
+    </header>
+    <section>
+            <div class="sectionTitle">
+                <h2>Calcule Já!</h2>
+            </div>
+            <div class="calc">
+                <div class="variable">
+                    <img class="icon" src="images/churras.png">
+                    <input id="adultos" type="number" name="adults" placeholder="adultos">
+                    <img class="icon2" src="images/child.png">
+                    <input id="criancas" type="number" name="children" placeholder="crianças"></input>
+                    <img class="icon2" src="images/clock.png">
+                    <input id="duracao" type="number" name="duration" placeholder="duração(h)"></input>
+                    <br>
+                    <button onclick="calcular(), mudarCSS()" id="submit">Calcular</button>
+                </div>
+                <div class="invisibleDiv" id="result">
+                    <div class="churrasquin" id="soMargem">
+                    <img class="icon3" src="images/beef.ico">
+                    <p class="invisibleP" id="carneResultado"></p>
+                    </div>
+                    <div class="churrasquin">
+                    <img class="icon3" src="images/beerIcon.png">
+                    <P class="invisibleP" id="cervejaResultado"></P>
+                    </div>
+                    <div class="churrasquin">
+                    <img class="icon3" src="images/refriIcon.png">
+                    <p class="invisibleP" id="refriResultado"></p>
+                    </div>
+            </div>
+            </div>
+        </div>        
+    </section>
+    <footer>
+        <div class="considerations">
+            <img class="footerImg" src="images/footerNoBG.png" alt="idoso cozinhando">
+            <p id="p01">
+                Feito com a intenção de facilitar a sua vida na hora de realizar um churrasquinho com amigos e parentes. Divirta-se!
+            </p>      
+        </div>
+    <hr width="80%">
+    <p id="copyright"> © 2021 José do Egito entertainment. Todos os direitos reservados.</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

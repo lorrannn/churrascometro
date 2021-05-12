@@ -1,0 +1,120 @@
+html, body
+    {padding:0;
+    margin:0;}
+
+body
+    {height:100vh;  
+    background-color:white;}
+
+header
+    {padding:10px;
+    height:200px;
+    background-color:rgb(243, 109, 109);
+    display:flex;
+    justify-content:center;}
+
+h2{text-align:center;
+    Color: black;
+    font-size:30px;}
+
+.headerTitle
+    {font-size:40px;}
+
+section
+    {height:450px;
+    background-image: url("images/churrascoSection.jpg");
+    background-size:contain;
+    border-top: solid;
+    border-bottom: solid;}
+
+.calc
+    {height:300px;
+    width:70%;
+    margin-top:45px;
+    margin-left: 30%;
+    display:flex;}
+
+
+.variable
+    {height:100%;
+    width:50%;
+    background-color:rgb(243, 109, 109);}
+
+#result
+    {height:100%;
+    width:15%;}
+
+.icon
+    {height:40px;
+    margin-top:20px;
+    margin-left:47%;}
+
+.icon2  
+    {height:30px;
+    margin-top:10px;
+    margin-left:48%;}
+
+.icon3
+    {height:40px;   
+    float:left;
+    }
+
+input
+    {display:block;
+    width:50%;
+    margin-left:25%;
+    border-radius:5px;
+    padding:5px;
+    box-sizing:border-box;}
+
+#submit
+    {width:10%;
+    margin-left:65%;
+    border-radius:5px;}
+
+::placeholder
+        {color: firebrick;}
+
+footer
+    {background-color:gray;
+    height:300px;}  
+
+p
+    {margin:0;}
+
+#p01
+    {margin-top:50px;}
+
+.footerImg
+        {height: 200px;
+        float:left;}
+
+.considerations
+        {max-width:400px;
+        height:200px;
+        padding-top:25px;
+        padding-left:300px;
+        text-align:center;}
+#copyright
+    {text-align:center;}
+
+.invisibleDiv
+
+    {display:none;
+    background-color:white;
+    
+    }
+
+.invisibleP
+{margin-top:10px;
+ margin-left:70px;
+font-weight: ;}
+
+.churrasquin{
+    height:50px;
+    padding:10px;
+    
+}
+
+#soMargem
+    {margin-top:45px;}
